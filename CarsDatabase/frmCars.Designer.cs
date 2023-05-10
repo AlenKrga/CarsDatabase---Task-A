@@ -28,18 +28,139 @@
         /// </summary>
         private void InitializeComponent()
         {
+            button1 = new Button();
+            button2 = new Button();
+            button3 = new Button();
+            button4 = new Button();
+            button5 = new Button();
+            button6 = new Button();
+            button7 = new Button();
+            button8 = new Button();
+            button9 = new Button();
+            button10 = new Button();
             SuspendLayout();
             // 
-            // Form1
+            // button1
+            // 
+            button1.Location = new Point(1499, 212);
+            button1.Name = "button1";
+            button1.Size = new Size(225, 69);
+            button1.TabIndex = 0;
+            button1.Text = "button1";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(1499, 298);
+            button2.Name = "button2";
+            button2.Size = new Size(225, 69);
+            button2.TabIndex = 1;
+            button2.Text = "button2";
+            button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(1499, 383);
+            button3.Name = "button3";
+            button3.Size = new Size(225, 69);
+            button3.TabIndex = 2;
+            button3.Text = "button3";
+            button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(1499, 469);
+            button4.Name = "button4";
+            button4.Size = new Size(225, 69);
+            button4.TabIndex = 3;
+            button4.Text = "button4";
+            button4.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(1499, 555);
+            button5.Name = "button5";
+            button5.Size = new Size(225, 69);
+            button5.TabIndex = 4;
+            button5.Text = "button5";
+            button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            button6.Location = new Point(1499, 639);
+            button6.Name = "button6";
+            button6.Size = new Size(225, 69);
+            button6.TabIndex = 5;
+            button6.Text = "button6";
+            button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            button7.Location = new Point(73, 725);
+            button7.Name = "button7";
+            button7.Size = new Size(225, 69);
+            button7.TabIndex = 6;
+            button7.Text = "button7";
+            button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            button8.Location = new Point(304, 725);
+            button8.Name = "button8";
+            button8.Size = new Size(225, 69);
+            button8.TabIndex = 7;
+            button8.Text = "button8";
+            button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            button9.Location = new Point(811, 725);
+            button9.Name = "button9";
+            button9.Size = new Size(225, 69);
+            button9.TabIndex = 8;
+            button9.Text = "button9";
+            button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(1042, 725);
+            button10.Name = "button10";
+            button10.Size = new Size(225, 69);
+            button10.TabIndex = 9;
+            button10.Text = "button10";
+            button10.UseVisualStyleBackColor = true;
+            // 
+            // frmCars
             // 
             AutoScaleDimensions = new SizeF(20F, 48F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1814, 855);
-            Name = "Form1";
+            Controls.Add(button10);
+            Controls.Add(button9);
+            Controls.Add(button8);
+            Controls.Add(button7);
+            Controls.Add(button6);
+            Controls.Add(button5);
+            Controls.Add(button4);
+            Controls.Add(button3);
+            Controls.Add(button2);
+            Controls.Add(button1);
+            Name = "frmCars";
             Text = "Form1";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button button5;
+        private Button button6;
+        private Button button7;
+        private Button button8;
+        private Button button9;
+        private Button button10;
     }
 }
