@@ -28,16 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
+            btnUpdate = new Button();
+            btnAdd = new Button();
+            btnDelete = new Button();
+            btnSearch = new Button();
+            btnCancel = new Button();
+            btnExit = new Button();
+            btnFirst = new Button();
+            btnPrevious = new Button();
+            btnNext = new Button();
+            btnLast = new Button();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -47,104 +47,105 @@
             label7 = new Label();
             label8 = new Label();
             checkBox1 = new CheckBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
+            frmVehicleRegLabel = new TextBox();
+            frmMake = new TextBox();
+            frmEngineSize = new TextBox();
+            frmDateRegistered = new TextBox();
             textBox5 = new TextBox();
             numericUpDown1 = new NumericUpDown();
+            panel1 = new Panel();
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
-            // button1
+            // btnUpdate
             // 
-            button1.Location = new Point(1499, 212);
-            button1.Name = "button1";
-            button1.Size = new Size(225, 69);
-            button1.TabIndex = 0;
-            button1.Text = "&Update\r\n";
-            button1.UseVisualStyleBackColor = true;
+            btnUpdate.Location = new Point(1499, 212);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(225, 69);
+            btnUpdate.TabIndex = 0;
+            btnUpdate.Text = "&Update\r\n";
+            btnUpdate.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnAdd
             // 
-            button2.Location = new Point(1499, 298);
-            button2.Name = "button2";
-            button2.Size = new Size(225, 69);
-            button2.TabIndex = 1;
-            button2.Text = "&Add";
-            button2.UseVisualStyleBackColor = true;
+            btnAdd.Location = new Point(1499, 298);
+            btnAdd.Name = "btnAdd";
+            btnAdd.Size = new Size(225, 69);
+            btnAdd.TabIndex = 1;
+            btnAdd.Text = "&Add";
+            btnAdd.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnDelete
             // 
-            button3.Location = new Point(1499, 383);
-            button3.Name = "button3";
-            button3.Size = new Size(225, 69);
-            button3.TabIndex = 2;
-            button3.Text = "&Delete";
-            button3.UseVisualStyleBackColor = true;
+            btnDelete.Location = new Point(1499, 383);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(225, 69);
+            btnDelete.TabIndex = 2;
+            btnDelete.Text = "&Delete";
+            btnDelete.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnSearch
             // 
-            button4.Location = new Point(1499, 469);
-            button4.Name = "button4";
-            button4.Size = new Size(225, 69);
-            button4.TabIndex = 3;
-            button4.Text = "&Search";
-            button4.UseVisualStyleBackColor = true;
+            btnSearch.Location = new Point(1499, 469);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(225, 69);
+            btnSearch.TabIndex = 3;
+            btnSearch.Text = "&Search";
+            btnSearch.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // btnCancel
             // 
-            button5.Location = new Point(1499, 555);
-            button5.Name = "button5";
-            button5.Size = new Size(225, 69);
-            button5.TabIndex = 4;
-            button5.Text = "&Cancel";
-            button5.UseVisualStyleBackColor = true;
+            btnCancel.Location = new Point(1499, 555);
+            btnCancel.Name = "btnCancel";
+            btnCancel.Size = new Size(225, 69);
+            btnCancel.TabIndex = 4;
+            btnCancel.Text = "&Cancel";
+            btnCancel.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // btnExit
             // 
-            button6.Location = new Point(1499, 639);
-            button6.Name = "button6";
-            button6.Size = new Size(225, 69);
-            button6.TabIndex = 5;
-            button6.Text = "E&xit";
-            button6.UseVisualStyleBackColor = true;
+            btnExit.Location = new Point(1499, 639);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(225, 69);
+            btnExit.TabIndex = 5;
+            btnExit.Text = "E&xit";
+            btnExit.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // btnFirst
             // 
-            button7.Location = new Point(188, 718);
-            button7.Name = "button7";
-            button7.Size = new Size(225, 69);
-            button7.TabIndex = 6;
-            button7.Text = "First";
-            button7.UseVisualStyleBackColor = true;
+            btnFirst.Location = new Point(188, 718);
+            btnFirst.Name = "btnFirst";
+            btnFirst.Size = new Size(225, 69);
+            btnFirst.TabIndex = 6;
+            btnFirst.Text = "First";
+            btnFirst.UseVisualStyleBackColor = true;
             // 
-            // button8
+            // btnPrevious
             // 
-            button8.Location = new Point(419, 718);
-            button8.Name = "button8";
-            button8.Size = new Size(225, 69);
-            button8.TabIndex = 7;
-            button8.Text = "Previous";
-            button8.UseVisualStyleBackColor = true;
+            btnPrevious.Location = new Point(419, 718);
+            btnPrevious.Name = "btnPrevious";
+            btnPrevious.Size = new Size(225, 69);
+            btnPrevious.TabIndex = 7;
+            btnPrevious.Text = "Previous";
+            btnPrevious.UseVisualStyleBackColor = true;
             // 
-            // button9
+            // btnNext
             // 
-            button9.Location = new Point(913, 718);
-            button9.Name = "button9";
-            button9.Size = new Size(225, 69);
-            button9.TabIndex = 8;
-            button9.Text = "Next";
-            button9.UseVisualStyleBackColor = true;
+            btnNext.Location = new Point(913, 718);
+            btnNext.Name = "btnNext";
+            btnNext.Size = new Size(225, 69);
+            btnNext.TabIndex = 8;
+            btnNext.Text = "Next";
+            btnNext.UseVisualStyleBackColor = true;
             // 
-            // button10
+            // btnLast
             // 
-            button10.Location = new Point(1144, 718);
-            button10.Name = "button10";
-            button10.Size = new Size(225, 69);
-            button10.TabIndex = 9;
-            button10.Text = "Last";
-            button10.UseVisualStyleBackColor = true;
+            btnLast.Location = new Point(1144, 718);
+            btnLast.Name = "btnLast";
+            btnLast.Size = new Size(225, 69);
+            btnLast.TabIndex = 9;
+            btnLast.Text = "Last";
+            btnLast.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -228,33 +229,33 @@
             checkBox1.TabIndex = 18;
             checkBox1.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // frmVehicleRegLabel
             // 
-            textBox1.Location = new Point(706, 226);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(300, 55);
-            textBox1.TabIndex = 19;
+            frmVehicleRegLabel.Location = new Point(706, 226);
+            frmVehicleRegLabel.Name = "frmVehicleRegLabel";
+            frmVehicleRegLabel.Size = new Size(300, 55);
+            frmVehicleRegLabel.TabIndex = 19;
             // 
-            // textBox2
+            // frmMake
             // 
-            textBox2.Location = new Point(706, 285);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(569, 55);
-            textBox2.TabIndex = 20;
+            frmMake.Location = new Point(706, 285);
+            frmMake.Name = "frmMake";
+            frmMake.Size = new Size(569, 55);
+            frmMake.TabIndex = 20;
             // 
-            // textBox3
+            // frmEngineSize
             // 
-            textBox3.Location = new Point(706, 351);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(300, 55);
-            textBox3.TabIndex = 21;
+            frmEngineSize.Location = new Point(706, 351);
+            frmEngineSize.Name = "frmEngineSize";
+            frmEngineSize.Size = new Size(300, 55);
+            frmEngineSize.TabIndex = 21;
             // 
-            // textBox4
+            // frmDateRegistered
             // 
-            textBox4.Location = new Point(706, 412);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(300, 55);
-            textBox4.TabIndex = 22;
+            frmDateRegistered.Location = new Point(706, 412);
+            frmDateRegistered.Name = "frmDateRegistered";
+            frmDateRegistered.Size = new Size(300, 55);
+            frmDateRegistered.TabIndex = 22;
             // 
             // textBox5
             // 
@@ -272,6 +273,15 @@
             numericUpDown1.Size = new Size(360, 55);
             numericUpDown1.TabIndex = 24;
             // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.ButtonFace;
+            panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Location = new Point(155, 160);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1149, 464);
+            panel1.TabIndex = 25;
+            // 
             // frmCars
             // 
             AutoScaleDimensions = new SizeF(20F, 48F);
@@ -279,10 +289,10 @@
             ClientSize = new Size(1814, 855);
             Controls.Add(numericUpDown1);
             Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(frmDateRegistered);
+            Controls.Add(frmEngineSize);
+            Controls.Add(frmMake);
+            Controls.Add(frmVehicleRegLabel);
             Controls.Add(checkBox1);
             Controls.Add(label8);
             Controls.Add(label7);
@@ -292,18 +302,20 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(button10);
-            Controls.Add(button9);
-            Controls.Add(button8);
-            Controls.Add(button7);
-            Controls.Add(button6);
-            Controls.Add(button5);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnLast);
+            Controls.Add(btnNext);
+            Controls.Add(btnPrevious);
+            Controls.Add(btnFirst);
+            Controls.Add(btnExit);
+            Controls.Add(btnCancel);
+            Controls.Add(btnSearch);
+            Controls.Add(btnDelete);
+            Controls.Add(btnAdd);
+            Controls.Add(btnUpdate);
+            Controls.Add(panel1);
             Name = "frmCars";
-            Text = "Form1";
+            ShowIcon = false;
+            Text = "Task A";
             ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -311,16 +323,16 @@
 
         #endregion
 
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
+        private Button btnUpdate;
+        private Button btnAdd;
+        private Button btnDelete;
+        private Button btnSearch;
+        private Button btnCancel;
+        private Button btnExit;
+        private Button btnFirst;
+        private Button btnPrevious;
+        private Button btnNext;
+        private Button btnLast;
         private Label label1;
         private Label label2;
         private Label label3;
@@ -330,11 +342,12 @@
         private Label label7;
         private Label label8;
         private CheckBox checkBox1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
+        private TextBox frmVehicleRegLabel;
+        private TextBox frmMake;
+        private TextBox frmEngineSize;
+        private TextBox frmDateRegistered;
         private TextBox textBox5;
         private NumericUpDown numericUpDown1;
+        private Panel panel1;
     }
 }

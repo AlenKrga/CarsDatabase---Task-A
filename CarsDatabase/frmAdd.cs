@@ -10,11 +10,11 @@ using System.Windows.Forms;
 
 namespace CarsDatabase
 {
-    public partial class frmSearch : Form
+    public partial class frmAdd : Form
     {
-        public frmSearch()
+        public frmAdd()
         {
-            
+            InitializeComponent();
         }
     }
 }
