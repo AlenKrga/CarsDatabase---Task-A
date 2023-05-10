@@ -62,7 +62,7 @@
             button1.Name = "button1";
             button1.Size = new Size(225, 69);
             button1.TabIndex = 0;
-            button1.Text = "Update\r\n";
+            button1.Text = "&Update\r\n";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -71,7 +71,7 @@
             button2.Name = "button2";
             button2.Size = new Size(225, 69);
             button2.TabIndex = 1;
-            button2.Text = "Add";
+            button2.Text = "&Add";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -80,7 +80,7 @@
             button3.Name = "button3";
             button3.Size = new Size(225, 69);
             button3.TabIndex = 2;
-            button3.Text = "Delete";
+            button3.Text = "&Delete";
             button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -89,7 +89,7 @@
             button4.Name = "button4";
             button4.Size = new Size(225, 69);
             button4.TabIndex = 3;
-            button4.Text = "Search";
+            button4.Text = "&Search";
             button4.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -98,7 +98,7 @@
             button5.Name = "button5";
             button5.Size = new Size(225, 69);
             button5.TabIndex = 4;
-            button5.Text = "Cancel";
+            button5.Text = "&Cancel";
             button5.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -107,7 +107,7 @@
             button6.Name = "button6";
             button6.Size = new Size(225, 69);
             button6.TabIndex = 5;
-            button6.Text = "Exit";
+            button6.Text = "E&xit";
             button6.UseVisualStyleBackColor = true;
             // 
             // button7
