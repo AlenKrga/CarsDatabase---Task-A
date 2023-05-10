@@ -47,6 +47,13 @@
             label7 = new Label();
             label8 = new Label();
             checkBox1 = new CheckBox();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            textBox3 = new TextBox();
+            textBox4 = new TextBox();
+            textBox5 = new TextBox();
+            numericUpDown1 = new NumericUpDown();
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -105,7 +112,7 @@
             // 
             // button7
             // 
-            button7.Location = new Point(73, 725);
+            button7.Location = new Point(188, 718);
             button7.Name = "button7";
             button7.Size = new Size(225, 69);
             button7.TabIndex = 6;
@@ -114,7 +121,7 @@
             // 
             // button8
             // 
-            button8.Location = new Point(304, 725);
+            button8.Location = new Point(419, 718);
             button8.Name = "button8";
             button8.Size = new Size(225, 69);
             button8.TabIndex = 7;
@@ -123,7 +130,7 @@
             // 
             // button9
             // 
-            button9.Location = new Point(811, 725);
+            button9.Location = new Point(913, 718);
             button9.Name = "button9";
             button9.Size = new Size(225, 69);
             button9.TabIndex = 8;
@@ -132,7 +139,7 @@
             // 
             // button10
             // 
-            button10.Location = new Point(1042, 725);
+            button10.Location = new Point(1144, 718);
             button10.Name = "button10";
             button10.Size = new Size(225, 69);
             button10.TabIndex = 9;
@@ -215,18 +222,67 @@
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(637, 559);
+            checkBox1.Location = new Point(706, 546);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(235, 52);
+            checkBox1.Size = new Size(42, 41);
             checkBox1.TabIndex = 18;
-            checkBox1.Text = "checkBox1";
             checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(706, 226);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(300, 55);
+            textBox1.TabIndex = 19;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(706, 285);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(569, 55);
+            textBox2.TabIndex = 20;
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(706, 351);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(300, 55);
+            textBox3.TabIndex = 21;
+            // 
+            // textBox4
+            // 
+            textBox4.Location = new Point(706, 412);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(300, 55);
+            textBox4.TabIndex = 22;
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(650, 725);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(257, 55);
+            textBox5.TabIndex = 23;
+            textBox5.Text = "1 of 15";
+            textBox5.TextAlign = HorizontalAlignment.Center;
+            // 
+            // numericUpDown1
+            // 
+            numericUpDown1.Location = new Point(707, 477);
+            numericUpDown1.Name = "numericUpDown1";
+            numericUpDown1.Size = new Size(360, 55);
+            numericUpDown1.TabIndex = 24;
             // 
             // frmCars
             // 
             AutoScaleDimensions = new SizeF(20F, 48F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1814, 855);
+            Controls.Add(numericUpDown1);
+            Controls.Add(textBox5);
+            Controls.Add(textBox4);
+            Controls.Add(textBox3);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
             Controls.Add(checkBox1);
             Controls.Add(label8);
             Controls.Add(label7);
@@ -248,6 +304,7 @@
             Controls.Add(button1);
             Name = "frmCars";
             Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)numericUpDown1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -273,5 +330,11 @@
         private Label label7;
         private Label label8;
         private CheckBox checkBox1;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private TextBox textBox4;
+        private TextBox textBox5;
+        private NumericUpDown numericUpDown1;
     }
 }
