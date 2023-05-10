@@ -38,6 +38,15 @@
             button8 = new Button();
             button9 = new Button();
             button10 = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label6 = new Label();
+            label7 = new Label();
+            label8 = new Label();
+            checkBox1 = new CheckBox();
             SuspendLayout();
             // 
             // button1
@@ -46,7 +55,7 @@
             button1.Name = "button1";
             button1.Size = new Size(225, 69);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Update\r\n";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
@@ -55,7 +64,7 @@
             button2.Name = "button2";
             button2.Size = new Size(225, 69);
             button2.TabIndex = 1;
-            button2.Text = "button2";
+            button2.Text = "Add";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
@@ -64,7 +73,7 @@
             button3.Name = "button3";
             button3.Size = new Size(225, 69);
             button3.TabIndex = 2;
-            button3.Text = "button3";
+            button3.Text = "Delete";
             button3.UseVisualStyleBackColor = true;
             // 
             // button4
@@ -73,7 +82,7 @@
             button4.Name = "button4";
             button4.Size = new Size(225, 69);
             button4.TabIndex = 3;
-            button4.Text = "button4";
+            button4.Text = "Search";
             button4.UseVisualStyleBackColor = true;
             // 
             // button5
@@ -82,7 +91,7 @@
             button5.Name = "button5";
             button5.Size = new Size(225, 69);
             button5.TabIndex = 4;
-            button5.Text = "button5";
+            button5.Text = "Cancel";
             button5.UseVisualStyleBackColor = true;
             // 
             // button6
@@ -91,7 +100,7 @@
             button6.Name = "button6";
             button6.Size = new Size(225, 69);
             button6.TabIndex = 5;
-            button6.Text = "button6";
+            button6.Text = "Exit";
             button6.UseVisualStyleBackColor = true;
             // 
             // button7
@@ -100,7 +109,7 @@
             button7.Name = "button7";
             button7.Size = new Size(225, 69);
             button7.TabIndex = 6;
-            button7.Text = "button7";
+            button7.Text = "First";
             button7.UseVisualStyleBackColor = true;
             // 
             // button8
@@ -109,7 +118,7 @@
             button8.Name = "button8";
             button8.Size = new Size(225, 69);
             button8.TabIndex = 7;
-            button8.Text = "button8";
+            button8.Text = "Previous";
             button8.UseVisualStyleBackColor = true;
             // 
             // button9
@@ -118,7 +127,7 @@
             button9.Name = "button9";
             button9.Size = new Size(225, 69);
             button9.TabIndex = 8;
-            button9.Text = "button9";
+            button9.Text = "Next";
             button9.UseVisualStyleBackColor = true;
             // 
             // button10
@@ -127,14 +136,106 @@
             button10.Name = "button10";
             button10.Size = new Size(225, 69);
             button10.TabIndex = 9;
-            button10.Text = "button10";
+            button10.Text = "Last";
             button10.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(169, 222);
+            label1.Name = "label1";
+            label1.Size = new Size(474, 48);
+            label1.TabIndex = 10;
+            label1.Text = "Vehicle Registration Number";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(169, 285);
+            label2.Name = "label2";
+            label2.Size = new Size(107, 48);
+            label2.TabIndex = 11;
+            label2.Text = "Make";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(169, 351);
+            label3.Name = "label3";
+            label3.Size = new Size(200, 48);
+            label3.TabIndex = 12;
+            label3.Text = "Engine Size";
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(169, 411);
+            label4.Name = "label4";
+            label4.Size = new Size(273, 48);
+            label4.TabIndex = 13;
+            label4.Text = "Date Registered";
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Location = new Point(169, 475);
+            label5.Name = "label5";
+            label5.Size = new Size(250, 48);
+            label5.TabIndex = 14;
+            label5.Text = "Rental Per Day";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(169, 541);
+            label6.Name = "label6";
+            label6.Size = new Size(162, 48);
+            label6.TabIndex = 15;
+            label6.Text = "Available";
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(724, 167);
+            label7.Name = "label7";
+            label7.Size = new Size(551, 48);
+            label7.TabIndex = 16;
+            label7.Text = "You are currently editing a record";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Magneto", 16F, FontStyle.Bold, GraphicsUnit.Point);
+            label8.Location = new Point(605, 58);
+            label8.Name = "label8";
+            label8.Size = new Size(662, 78);
+            label8.TabIndex = 17;
+            label8.Text = "Bowman Car Hire";
+            // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(637, 559);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(235, 52);
+            checkBox1.TabIndex = 18;
+            checkBox1.Text = "checkBox1";
+            checkBox1.UseVisualStyleBackColor = true;
             // 
             // frmCars
             // 
             AutoScaleDimensions = new SizeF(20F, 48F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1814, 855);
+            Controls.Add(checkBox1);
+            Controls.Add(label8);
+            Controls.Add(label7);
+            Controls.Add(label6);
+            Controls.Add(label5);
+            Controls.Add(label4);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
             Controls.Add(button10);
             Controls.Add(button9);
             Controls.Add(button8);
@@ -148,6 +249,7 @@
             Name = "frmCars";
             Text = "Form1";
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -162,5 +264,14 @@
         private Button button8;
         private Button button9;
         private Button button10;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private Label label4;
+        private Label label5;
+        private Label label6;
+        private Label label7;
+        private Label label8;
+        private CheckBox checkBox1;
     }
 }
